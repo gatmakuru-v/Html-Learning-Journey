@@ -1,1 +1,23 @@
+# Meta Elements
+Meta  tags are always placed inside the head section of HTML documents
+
+1. Meta charset UTF : Characterset- Specifies the character encoding for documents like UTF-8  
+UTF - 8 : Unicode Transformation Format- 8bits(1byte)
+
+2. Meta viewport : It is the user's visible are of the web. Captures active device screen resolution.  
+- width=device-width -> part sets the width of the page to follow the screen-width of the device  
+- initial-scale=1.0 -> part sets the initial zoom level when the page is first loaded by the browser
+
+3. Meta Compact : Browser Compatibility = IE 7 (Minimum version =7)
+4. Meta Edge : Browser Compatibility = Edge(Latest Version of Internet Explorer)
+
+5. Meta Description : It is used to provide a  brief summary or description of the content of the web page. 
+name="description" specifies that this tag is providing a description
+content = contains actual description text
+
+6. Meta Keywords : SEO keywords
+name="Keywords"indicates that is specifying keywords
+content = contains a comma seperated list of keywords that arae relevant to the page
+
+7. Meta referesh(tells the browser to refresh the page) and redirect(redirects to different URL) : It is used for refreshing a page at regular intervals and redirecting the page to a new URL.
 
