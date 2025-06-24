@@ -1,1 +1,4 @@
-
+# Buttons 
+In HTML, buttons are used to interact with users by triggering actions, submitting forms, or performing other tasks. There are different types of buttons in HTML, and you can customize them using attributes like type, class, or id.
+## Button Element (<button>)
+The <button> element is used to create a clickable button in HTML. It can have various types and is commonly used for triggering actions like form submissions or JavaScript functions.
