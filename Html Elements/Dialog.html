@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dialog/Modal/Popup screen</h1>
+    <button id="shBtn">Show</button><!-- default-hidden -->
+
+    <dialog id="alert">
+        <h1>Alert Windows</h1><!-- used for alert, info alert... -->
+        <p>Are you sure to log out?</p>
+        <div>
+            <button>No</button>
+            <button>Yes</button>
+        </div>
+    </dialog>
+    <script>
+        let alertEL = document.getElementById("alert")
+        let shBtn = document.getElementById("shBtn")
+        let cls = document.getElementById("cls")
+
+        shBtn.onclick=function(){
+            alertEL.show()
+        }
+
+        cls.onclick = function(){
+            alertEl.close()
+        };
+        
+    
+    </script>
+</body>
+</html>
