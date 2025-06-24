@@ -1,1 +1,8 @@
+# Paragraph Element 
+
+It is used to define a paragraph of a text (p). It is a box-level element i.e occupies the full width available and creates a new line after it.
+
+break(br) : It is used to insert a line break eithin text, ehich forces the content following it to start on a new line. It is an empty tag or void element i.e it doesnt have a closing/ending tag 
+
+horizontal(hr) : It is used to create a horizontal rule or a thematic break in the content. It visually seperates sections of content.
 
