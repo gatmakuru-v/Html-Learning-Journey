@@ -1,1 +1,31 @@
+# Form Attributes
+1. Action - adding the server pages or url address or path (used when we dont use javascript)
+2. Method -
+get = Data is visible in url address
+post = Hides the data
+3. enctype= encryption type
+ - application/x-www-form-urlencoded - default type
+ - multipart/form data= file upload(used)
+ 4. autocomplete = 
+ - browser history (form history)
+ @ on = enables the autofill
+ @ off = disables the autofill
+
+## Form Tags:
+1. fieldset = Draws a border line around the form area
+2. legend = Title of the form
+3. input =  user inputs 
+- attributes:
+  @ type attribute : decides the input type
+  @ name attribute = field name(unique)
+  @ id - field id(unique)
+  @ placeholder - hint for the user // not applicable for select
+  @ Required - Mandatory 
+  @ readonly - disables the write property/operation
+  @ value - default value
+  
+4. label = form  input label-----usually used to give user input
+5. select = dropdown 
+6. textarea = multiline text input
+
 
