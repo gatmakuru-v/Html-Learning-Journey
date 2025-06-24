@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <style>
+        h1{
+            margin-left:10px;
+        }
+        form{
+            border: 1px solid black;
+        }
+        div{
+            margin:10px;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <h1>Registration Form</h1>
+        <div>
+            <label for="firstname">First Name : </label>
+            <input type="text" name="firstname" id="firstname" placeholder="enter your first name" required>
+        </div>
+        <div>
+            <label for="lastname">Last Name : </label>
+            <input type="text" name="lastname" id="lastname" placeholder="enter your last name" required>
+        </div>
+        <div>
+            <label for="mail">Email : </label>
+            <input type="email" name="mail" id="mail" required>
+        </div>
+        <div>
+            <label for="pass">Password : </label>
+            <input type="password" name="pass" id="pass" placeholder="enter your mail" required>
+        </div>
+        <div>
+            <label for="">Gender : </label><br>
+            <label>
+                <input type="radio" name="gender" id="" vale="male">male
+            </label>
+            <label>
+                <input type="radio" name="gender" id="" value="female">female
+            </label>
+            <label>
+                <input type="radio" name="gender" id="" value="other">Other
+            </label>
+        </div>
+        <div>
+           
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" required>
+       
+        </div>
+        <div>
+            <label for="">Preferences : </label>
+            <div>
+                <label>
+                    <input type="checkbox" name="paint1" id="" value="arcylic">Arcylic Painting :
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="paint2" id="" value="oil">Oil Painting
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="paint3" id="" value="water">Water Color Painting
+                </label>
+            </div>
+        </div>
+        <div>
+           
+                <label for=""> Select Occupation : </label>
+                <select name="" id="">
+                    <option value="stu">Student</option>
+                    <option value="business">Bussinessman</option>
+                    <option value="emp">Employee</option>
+                    <option value="law">Lawyer</option>
+                    <option value="doc">Doctor</option>
+                    <option value="ca">CA</option>
+                </select>
+            
+        </div>
+        <div>
+           
+                <label for="">Bio : </label>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Share few lines..."></textarea>
+           
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+</html>

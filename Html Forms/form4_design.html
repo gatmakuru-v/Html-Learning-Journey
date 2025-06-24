@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <style>
+        div{
+            padding:5px;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+    <form action="">
+        <div>
+            <label for="user">Username : </label>
+            <input type="text" name="user" id="user" size="30" required>
+        </div>
+        <div>
+            <label for="pass">Password : </label>
+            <input type="password" name="pass" id="pass" size="30">
+        </div>
+        <div>
+            <label for="city">City of Employment : </label>
+            <input type="text" name="city" id="city" size="30">
+        </div>
+        <div>
+            <label for="">Web Server : </label>
+            <select name="" id="">
+                <option value="apache">Apache</option>
+                <option value="nginx">Nginx</option>
+                <option value="iis">IIS</option>
+                <option value="lite">LiteSpeed</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Specify Role : </label>
+            <label for="">
+                <input type="radio" name=" role" id="role" value="admin">Admin
+            </label>
+            <label for="">
+                <input type="radio" name=" role" id="role" value="engineer">Engineer
+            </label>
+            <label for="">
+                <input type="radio" name=" role" id="role" value="Manager">Manager
+            </label>
+            <label for="">
+                <input type="radio" name=" role" id="role" value="guest">Guest
+            </label>
+        </div>
+        <div>
+           <label for="">Single Sign-in to the following : </label>
+           <label for="">
+            <input type="checkbox" name="" id="" value="mall">Mall
+           </label>
+           <label for="">
+            <input type="checkbox" name="" id="" value="Payroll">Payroll
+           </label>
+           <label for="">
+            <input type="checkbox" name="" id="" value="Self-Service">Self-Service
+           </label>
+        </div>
+        <div>
+          <button>Login</button>
+            <input type="Reset">
+        </div>
+    </form>
+</body>
+</html>
