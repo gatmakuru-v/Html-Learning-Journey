@@ -1,1 +1,35 @@
+# Format Elements
 
+1. Bold(b) = In HTML, the <b> tag is used to apply bold styling to text
+2. Strong(strong) = <strong> It not only makes the text bold but also implies that the text is of strong importance  
+3. Italics(i) = the italics<i> tag is used to create italicized text
+4. Emphasis(em) = The <em> tag is used to indicate emphasis on a certain piece of text. By default, this will typically display the text in italic style, but it also has semantic meaning, suggesting that the text should be emphasized.
+5. UnderLine(u) = the <u> tag is used to create underlined text. However, it's important to note that the <u> tag is purely for styling and doesn't carry semantic meaning like some other tags (e.g., <em> or <strong>).
+6. Inserted Tag(ins) = In HTML, the <ins> tag is used to represent inserted text. This is typically used to show text that has been added to a document or content, and it is often displayed with underline by default in most browsers.
+The <ins> tag is commonly used in scenarios such as:
+Showing changes in a document (e.g., when comparing different versions of text).
+Highlighting updates to a webpage.  
+7. Strike Element (s) = In HTML, the <strike> tag was originally used to indicate text that should be displayed with a line through it, often representing deleted or incorrect text. However, the <strike> tag is now considered obsolete and has been replaced by the <del> and <s> tags in modern HTML.
+8. Delete element (del) = The <del> tag in HTML is used to represent deleted text. It visually displays text with a line through it, indicating that the text has been removed from the document. This tag is often used in situations where content has been deleted or revised, such as in version control or document editing
+9. small text(small) = The <small> tag is specifically designed to display smaller text, usually for footnotes or disclaimers.
+10. Big Text(big) = The <big> tag makes the text slightly bigger than normal text, though it’s not as large as using header tags or custom CSS.
+11. subscript(sub) - In HTML, subscript text can be created using the <sub> tag. This tag renders text in a smaller size and slightly lower than the normal text, which is typically used for scientific notations, formulas, or chemical equations.
+12. superscript(sup) = In HTML, superscript text can be created using the <sup> tag. This tag renders text in a smaller size and positions it slightly above the normal text, typically used for mathematical powers, footnotes, and other annotations.
+13. abbr(abbreviation tag) : In HTML, the <abbr> tag is used to define abbreviations or acronyms. It helps provide clarity about what the abbreviation stands for by allowing you to specify the full form using the title attribute. When a user hovers over the abbreviation, the full form will be displayed as a tooltip.
+14. Keyboard Element(KBD) : n HTML, the <kbd> tag is used to define keyboard input or text that the user might type, such as a keyboard shortcut or command. It is typically used to represent user input or key presses in a way that is visually distinguished from other text.
+15. bdo(bi-directional overrides) - dir=  HTML, the <bdo> tag is used to override the current text direction for a specific section of content. The dir attribute within the <bdo> tag can be set to either "ltr" (left-to-right) or "rtl" (right-to-left), which is particularly useful when dealing with multilingual content or languages that are written in different directions, like Arabic or Hebrew.
+The <bdo> tag is used here to override the default direction of the text.
+The dir="ltr" specifies that the enclosed text should be displayed left-to-right.
+The dir="rtl" specifies that the enclosed text should be displayed right-to-left.
+16. BlockQuote = The <blockquote> tag is used to represent a block of text that is a quotation from another source. It typically displays the quoted text with indentation.
+17. Quote(q) = The <q> tag is used for inline quotations. It automatically adds quotation marks around the text.
+18. cite = The <cite> tag is used to reference the source of the quote or citation, typically placed after the quote.
+19. Address(address tag) = In HTML, the <address> tag is used to represent contact information for a person or an organization. This can include elements like names, addresses, phone numbers, email addresses, and URLs. It's typically used in the footer or at the end of a webpage, but it can be used anywhere you want to display contact information
+20. Time = In HTML, the <time> element represents a specific time or a range of time. It is useful for marking up dates, times, and durations in a machine-readable way. This helps search engines, browsers, and other technologies better understand the content.
+21. timedate =  
+datetime attribute: Specifies the machine-readable value of the time, typically in the ISO 8601 format (e.g., YYYY-MM-DD, HH:MM:SS).
+text: The human-readable representation of the time.
+22. Pre tag = The <pre> tag in HTML is used to display preformatted text. It preserves both spaces and line breaks, making it ideal for displaying code, poetry, or any text where the formatting must be maintained.
+23. Span(span) = The <span> tag in HTML is an inline element used to group or style a portion of text or other inline elements. It's typically used when you want to apply styles, classes, or attributes to a small section of text without affecting the surrounding content.
+24. samp(sample output) = The <samp> tag in HTML is used to define sample output from a computer program or system. It’s typically used to display results that a program might generate, such as outputs from a script or a command-line interface. The text inside the <samp> tag is often displayed in a monospace (fixed-width) font by default to indicate it's machine-generated text.
+25. Marked Text(mark):To mark or highlight text in HTML, you can use the <mark> element.
