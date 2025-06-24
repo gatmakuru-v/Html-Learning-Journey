@@ -1,1 +1,13 @@
-
+# Marquee Tag
+The <marquee> tag in HTML was used to create scrolling or moving text or images across the screen. However, it is deprecated and no longer recommended for use in modern web development because it’s not supported in HTML5, and its behavior is unpredictable across different browsers.
+Behavior Types:
+1. scroll (Default behavior): The content scrolls horizontally (left to right or right to left) or vertically (up or down) across the screen. This is the default behavior for a <marquee> tag.
+2. slide: The content slides in from one side and stops when it reaches the edge.
+3. alternate : The content scrolls in one direction and then bounces back in the opposite direction, repeating this process.
+4. direction: Controls the direction of the movement. 
+Possible values are:
+left (default): Scrolls the content to the left.
+right: Scrolls the content to the right.
+up: Scrolls the content upwards.
+down: Scrolls the content downwards.
+5. scrollamount: Sets the speed of scrolling. A higher number makes the text scroll faster.(only 1 to 100)
