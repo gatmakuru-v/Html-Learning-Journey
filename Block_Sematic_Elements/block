@@ -1,1 +1,32 @@
+## Semantic Elements
+
+<header>
+Defines a header for a document or section, typically containing navigation, headings, or introductory content.
+
+<footer>
+Represents the footer of a document or section, usually containing copyright information, contact details, or related links.
+
+<article>
+Represents an independent piece of content that could stand alone, such as a blog post, news article, or user comment.
+
+<section>
+Represents a section of content, typically with a heading, that groups related content together within a document.
+
+<nav>
+Defines a section containing navigation links that help users navigate a website or page.
+
+<main>
+Represents the primary content of a document, directly related to the main topic of the page, excluding repeated content like headers or footers.
+
+<aside>
+Represents content that is tangentially related to the content around it, such as sidebars, additional information, or advertisements.
+
+<figure>
+Represents media content (like images or diagrams) along with an optional caption (<figcaption>).
+
+<time>
+Represents a specific time or date, allowing browsers and other tools to interpret the time-based information.
+
+
+
 
