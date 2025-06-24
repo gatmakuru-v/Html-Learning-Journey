@@ -1,1 +1,27 @@
+# Table Tag 
+ Table : An HTML table is a structure used to display data in a tabular format, consisting of rows and columns. It is defined using HTML elements such as <table>, <tr>, <th>, and <td>. Tables are widely used to organize and present information in a clear and systematic way on web pages.
 
+- Key Components of an HTML Table:
+<table>: This is the main container element that defines the table.
+
+<tr> (table row): Represents a row of data within the table.
+
+<th> (table header): Defines a header cell in the table, typically bold and centered. It is used to describe the type of data contained in a column.
+
+<td> (table data): Represents a standard cell that contains the data in the table.
+
+<thead>: A container for the header row(s), often used to group and define the table's header.
+
+<tbody>: Contains the body of the table, where the main data rows are located.
+
+<tfoot>: An optional footer section, often used to group summary or footer information.
+
+- colspan (Column Span):
+The colspan attribute is used to make a table cell span across multiple columns. This allows one cell to cover more than one column.
+<td colspan="number">Content</td>
+- The rowspan attribute is used to make a table cell span across multiple rows. This allows one cell to cover more than one row.
+
+Syntax:
+html
+Copy
+<td rowspan="number">Content</td>
