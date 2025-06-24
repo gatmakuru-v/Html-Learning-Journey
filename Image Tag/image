@@ -1,1 +1,34 @@
+# Image Tag
 
+In HTML, the <img> tag is used to embed images on a web page. Unlike other tags, the <img> tag is self-closing, meaning it doesn’t require a closing tag.
+
+Important Attributes of the <img> Tag:
+src: Specifies the source (URL) of the image.
+
+Example: <img src="image.jpg" />
+
+The src attribute can point to an image on the same server (relative URL) or an image on an external server (absolute URL).
+
+alt: Provides alternative text for the image if it cannot be displayed. This is important for accessibility and SEO.
+
+Example: <img src="image.jpg" alt="A beautiful scenery" />
+
+width: Specifies the width of the image in pixels or as a percentage.
+
+Example: <img src="image.jpg" width="500" />
+
+height: Specifies the height of the image in pixels or as a percentage.
+
+Example: <img src="image.jpg" height="300" />
+
+title: Adds a tooltip to the image. The tooltip appears when the user hovers over the image.
+
+Example: <img src="image.jpg" title="A beautiful scenery" />
+
+loading: Specifies how the image should be loaded.
+
+lazy: The image will be loaded only when it’s about to enter the viewport (for improved performance).
+
+eager: The image will be loaded immediately.
+
+Example: <img src="image.jpg" loading="lazy" />
