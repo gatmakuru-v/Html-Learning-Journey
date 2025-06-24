@@ -1,1 +1,30 @@
+# Anchor Tag 
+- Anchor tag can also be called as hyperlink
+- In HTML, the anchor tag (<a>) is used to create hyperlinks. It can link to other web pages, files, email addresses, or even specific sections within the same page.
+
+Attributes of the <a> tag:
+href: Specifies the destination URL of the link.
+
+Example: <a href="https://www.example.com">Visit Example</a>
+
+target: Specifies where to open the linked document.
+
+_blank: Opens the link in a new tab or window.
+
+_self: Opens the link in the same tab (default).
+
+_parent: Opens the link in the parent frame.
+
+_top: Opens the link in the full window, removing frames.
+
+Example: <a href="https://www.example.com" target="_blank">Visit Example</a>
+
+title: Provides additional information about the link (appears as a tooltip when hovered over).
+
+Example: <a href="https://www.example.com" title="Go to Example website">Visit Example</a>
+
+rel: Specifies the relationship between the current document and the linked document, often used for security or SEO purposes.
+
+Example: <a href="https://www.example.com" rel="noopener noreferrer" target="_blank">Visit Example</a>
+
 
