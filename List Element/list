@@ -1,1 +1,25 @@
+# List Element 
 
+ Lists are used to group a set of items in a structured format
+ 1. Ordered List (<ol>)
+An ordered list is used when the order of the items is important. Items are displayed with numbers or letters by default.
+
+HTML Tag: <ol>
+
+List Item Tag: <li>
+
+2. Unordered List (<ul>)
+An unordered list is used when the order of the items is not important. Items are typically displayed with bullet points.
+
+HTML Tag: <ul>
+
+List Item Tag: <li>
+
+3. Description List (<dl>)
+A description list is used to define terms and their descriptions. It consists of terms (<dt>) and corresponding descriptions (<dd>).
+
+HTML Tag: <dl>
+
+Term Tag: <dt>
+
+Description Tag: <dd>
