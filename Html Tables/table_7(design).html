@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+    <style>
+        table{
+            width:50%;
+            text-align: center;
+        }
+        table,tr,th,td{
+            border:1px solid black;
+        }
+        tr,th{
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Details</h1>
+    <table>
+         <tr>
+            <th rowspan="2">Heading</th>
+            <th>Students</th>
+            <th colspan="3">Details</th>
+         </tr>
+         <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Roll Number</th>
+         </tr>
+         <tr>
+            <td rowspan="4">Student List</td>
+            <td>1</td>
+            <td>Grishma</td>
+            <td>IT</td>
+            <td>01</td>
+         </tr>
+         <tr>
+            <td> 2</td>
+            <td>Anshul</td>
+            <td>Mechanical</td>
+            <td>02</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>Anku</td>
+            <td>CSE</td>
+            <td>03</td>
+         </tr>
+         <tr>
+            <td>4</td>
+            <td>Geet</td>
+            <td>EEE</td>
+            <td>04</td>
+         </tr>
+    </table>
+</body>
+</html>
